@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.head h1{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    padding: 20px;
+}
+
+.scroll{
+    margin: 20px 20px;
+    margin-bottom: 60px;
+}
+
+/* Inner Box */
+
+
+img{
+    width: 20%;
+    height: 20%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+/* 
+.main-container{
+    background-color: rgba(175, 174, 174, 0.645);
+    width: 100%;
+    height: 100vh;
+    padding-top: 200px;
+} */
+
+.container{
+    
+    border-radius: 15px;
+    width: 20%;
+    margin: auto auto;
+    /* margin-top: 100px; */
+    text-align: center;
+    background-color: white;
+    position: relative;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.8);
+}
+
+
+.box{
+   margin-bottom: 100px; 
+   position: relative;
+
+}
+
+
+
+.box h4{
+    color: gray;
+    font-weight: lighter;
+}
+
+.box h2{
+    font-weight: 400;
+}
+
+.info h4{
+    padding-bottom: 50px;
+}
+
+
+/* ......................... */
+
+.new{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.help{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(45, 102, 143);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.page{
+    height: 200vh;
+}
+
+.head{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    position: sticky;
+    top: 0;
+    display:flex;
+    z-index: 1;
+    flex-direction: row;
+    justify-content: space-between;
+}
